@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/ebony_3.jpg);
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 2em;
+    background: rgb(53,90,122);
+    background: linear-gradient(0deg, rgba(53,90,122,1) 0%, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 95%);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.menu h1 {
+    color: #e03f3e;
+    font-size: 40px;
+    font-weight: 900;
+}
+.menu ul{
+    display: flex;
+    gap: 2em;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+.search input {
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    border: 2px solid #bdc3c7;
+    outline: none;
+}
+
+.search button {
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #9b59b6;
+    color: #fff;
+    border: none;
+}
+
