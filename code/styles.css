@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/6e9794bcedeecf5a8f8f41338a2a7345.webp);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url(../images/6e9794bcedeecf5a8f8f41338a2a7345.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,6 +50,7 @@ nav {
 .menu a {
     text-decoration: none;
     color: white;
+    transition: ease-in 0.2s;
 }
 
 .menu a:hover {
@@ -69,17 +70,9 @@ nav {
     padding: 10px 20px;
     border-radius: 25px;
     cursor: pointer;
-    background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);;
-    color: #fff;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    color: black;
+    font-weight: 600;
     border: none;
     font-size: 18px;
-    transition: transform ease-in 0.3s;
-}
-
-.search button:hover {
-    transform:matrix3d() ;
-}
-
-.btn-inscription {
-    
 }
