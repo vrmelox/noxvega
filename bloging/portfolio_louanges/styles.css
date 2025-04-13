@@ -1,0 +1,309 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+    border-bottom: 2px solid black;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    cursor: pointer;
+    color: black;
+}
+
+.logo {
+    padding-bottom: 2%;
+    padding-left: 5%;
+}
+
+.presentation {
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8%;
+}
+
+.pro-name, .pro-field {
+    font-size: 4em;
+}
+
+.pro-description {
+    font-size: 1.2em;
+    max-width: 70%;
+    padding: 30px 0;
+}
+
+.btn-presentation button {
+    padding: 17px 27px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.btn-presentation button:hover {
+    transform: scale(1.05);
+}
+
+.btn-decouvrir {
+    background-color: black;
+    color: white;
+    margin-right: 25px;
+}
+
+.btn-contact {
+    background-color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-contact:hover {
+    background-color: pink;
+}
+
+.motivation{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+    font-size: 1.2em;
+}
+
+.motivation h2 {
+    font-size: 2.5em;
+    width: 60%;
+}
+
+.motivation-text {
+    width: 38%;
+}
+
+.img-quoteur {
+    width: 8%;
+}
+
+.quotes {
+    display: flex;
+    margin: 0 5%;
+    gap: 30px;
+    margin-bottom: 8%;
+}
+
+.title-temoignages, .subtitle-temoignages {
+    text-align: center;
+}
+
+.title-temoignages {
+    margin-top: 8%;
+    margin-bottom: 2%;
+    font-size: 3em;
+}
+
+.subtitle-temoignages {
+    margin-bottom: 4%;
+    font-size: 1.2em;
+}
+
+.quoteur {
+    display: flex;
+    gap: 15px;
+}
+
+.quote_un, .quote_deux, .quote_trois {
+    border: 2px solid black;
+    font-size: 1.2em;
+    padding: 70px;
+}
+
+.quotext {
+    padding: 15px 0;
+}
+
+.quotname .name {
+    font-weight: bold;
+}
+
+.mes-valeurs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5%;
+    margin-bottom: 8%;
+}
+
+.mes-valeurs li {
+    list-style-type: none;
+}
+
+.my-values h2 {
+    font-size: 3.5em;
+}
+
+.my-values {
+    max-width: 55%;
+    font-size: 1.2em;
+}
+
+.my-values p {
+    padding: 3% 0;
+}
+
+.fa-cube {
+    padding-right: 10px;
+}
+
+.citations {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.citations figcaption {
+    margin: 2% 0;
+    font-size: 1em;
+}
+
+.citations .position {
+    font-style: italic;
+}
+.citations blockquote {
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    padding-top: 2%;
+    font-size: 1.3em;
+    border-top: 2px solid;
+}
+
+.blog-header {
+    text-align: center;
+    max-width: 750px;
+    margin: 5% auto;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+.blog-header h1 {
+    font-size: 58px;
+    margin: 2% 0;
+}
+
+.blog-header .surtitre {
+    font-weight: 500;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+}
+.category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.category ul li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.category ul li:hover {
+    color: #9DA993;
+}
+
+.category .active {
+    border: 2px solid black;
+    padding: 10px 13px;
+    color: #F652A0;
+    font-weight: bold;
+}
+
+.les-articles {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+.article {
+    width: 450px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.article:hover {
+    transform: translateY(-10px);
+}
+
+.img-hero {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.cat {
+    font-weight: bold;
+    margin: 3% 15px;
+    display: inline-block;
+    background-color: #9DA993;
+    padding: 5px 10px;
+}
+
+.article .title {
+    padding: 0 15px;
+    color: #603F8B;
+}
+
+.excerpt {
+    padding: 3% 15px;
+}
+
+.readMore {
+    padding: 2% 15px;
+    font-weight: 600;
+    color: #F652A0;
+}
+
+.readMore a {
+    text-decoration: none;
+    color: inherit;
+}
+.a-propos {
+    text-align: center;
+    margin: 5% auto;
+    max-width: 48em;
+}
+
+.a-propos p {
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.a-propos h2 {
+    font-size: 3.5em;
+}

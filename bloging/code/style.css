@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 1.5em;
+    color: #EF7C8E;
+}
+
+.btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #82c8a0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.art {
+    width: 450px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.art:hover {
+    transform: translateY(-5px);
+}
+
+.hero {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.art h2 {
+    font-size: 24px;
+    color: #189AB4;
+    padding: 15px;
+}
+
+.art h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.art h2 a:hover {
+    color: #EF7C8E;
+}
+
+.titreh2 {
+    font-size: 16px;
+    padding: 0 15px 15px;
+    line-height: 1.5;
+    color: #555;
+}
+
+article {
+    margin: 5em auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    width: 500px;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+article h1 {
+    font-weight: 700;
+    font-size: 2em;
+    color: #EF7C8E;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+article .excerpt {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+article img {
+    margin-bottom: 25px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+@media (max-width: 600px) {
+    article {
+        margin: 2em auto;
+        padding: 15px;
+    }
+
+    article h1 {
+        font-size: 1.5em;
+    }
+
+    article .excerpt {
+        font-size: 16px;
+    }
+}

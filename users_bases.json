@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Adelyne",
+        "Adresse": "Cotonou, Degakon",
+        "Age": 23,
+        "image": "../images/Adelyne.jpg",
+        "online": true
+    },
+    {
+        "id": 2,
+        "name": "Ronisia",
+        "Adresse": "Abomey-Calavi, Parana",
+        "Age": 27,
+        "image": "../images/Ronisia.jpg",
+        "online": true
+    },
+    {
+        "id": 3,
+        "name": "Medalia",
+        "Adresse": "Abomey-Calavi, Zogbadjè",
+        "Age": 24,
+        "image": "../images/Medalia.jpg",
+        "online": true
+    },
+    {
+        "id": 4,
+        "name": "Adelyne",
+        "Adresse": "Cotonou, Akpakpa",
+        "Age": 26,
+        "image": "../images/Melvina.jpg",
+        "online": true
+    },
+    {
+        "id": 5,
+        "name": "Clara",
+        "Adresse": "Cotonou, Suru-Léré",
+        "Age": 23,
+        "image": "../images/Clara.jpg",
+        "online": true
+    },
+    {
+        "id": 6,
+        "name": "Diana",
+        "Adresse": "Cotonou, Agontinkon",
+        "Age": 23,
+        "image": "../images/Diana.jpg",
+        "online": true
+    },
+    {
+        "id": 7,
+        "name": "Lucia",
+        "Adresse": "Cotonou, Haie-Vive",
+        "Age": 23,
+        "image": "../images/Lucia.jpg",
+        "online": true
+    }
+]
